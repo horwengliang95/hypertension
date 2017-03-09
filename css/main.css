@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+
+.btn {
+  border-radius: 0;
+  font-family: 'sans-serif';
+  font-size: 20px;
+  padding: 9px 23px;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'sans-serif';
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 36px
+}
+
+.row{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+/*************************
+*******Header CSS******
+**************************/
+.main-nav
+.container {
+  width: 100%
+}
+
+
+/*************************
+*******Home CSS******
+**************************/
+
+.project_pic{
+  background-image: url("../images/oat.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 130px 0 350px;
+}
+
+.project_title{
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+.project_title h4{
+  color: #494E55;
+  padding-bottom: 50px;
+}
+
+
+/*************************
+*******Explore CSS******
+**************************/
+
+#explore {
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat:no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 130px 0 100px;
+}
+
+#explore h1{
+  padding-bottom: 20px;
+}
+
+.features{
+  text-align: center;
+}
+
+.features p{
+  color: #494E55;
+  font-weight: 300;
+}
+
+
+ /*************************
+*******Event CSS******
+**************************/
+#event {
+  background-image: url("../images/orange.jpg");
+  opacity: 0.9;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 130px 0 200px;
+}
+
+#event h1{
+  font-weight: 500;
+  font-size: 50px;
+  color: #000000;
+}
+
+#event h3{
+  font-size: 40px;
+}
+/*************************
+*******About CSS**********
+**************************/
+
+#about {
+  background-color: #F8F8F9;
+  background-image: url("../images/twitter-bg.jpg");
+}
+
+#about img{
+  width: 290px;
+  height: 270px;
+}
+
+#about p{
+  color: #95A8BC;
+}
+
+.card-box{
+  background-color: #FFFFFF;
+}
+
+.team1{
+  margin-bottom: 30px;
+}
+
+.member_caption h1{
+  margin-bottom: 50px;
+}
+
+.member_caption h3{
+  color:
+}
+
+
+/*************************
+******Supervisor CSS****
+**************************/
+
+#supervisor {
+  background-color: #ecedef;
+}
+
+#supervisor img{
+  width:50%;
+}
+
+
+
+/*************************
+******Footer CSS****
+**************************/
+
+#footer {
+  background-color: #212121;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 35px 0;
+}
+
+#footer a {
+  color:#f7ab24
+}
+
+#footer a:hover {
+  color:#1B7B98
+}
